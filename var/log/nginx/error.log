@@ -1,0 +1,600 @@
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll: fd:8 ev:0001 d:000056242CB6AED8
+2025/09/11 12:41:13 [debug] 2618650#2618650: accept on 0.0.0.0:443, ready: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: posix_memalign: 000056242CA919B0:512 @16
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 accept: 177.174.202.30:55625 fd:3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 event timer add: 3: 60000:7506145501
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 reusable connection: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 epoll add event: fd:3 op:1 ev:80002001
+2025/09/11 12:41:13 [debug] 2618650#2618650: timer delta: 23914
+2025/09/11 12:41:13 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll timer: 60000
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll: fd:3 ev:0001 d:000056242CB6B2B8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http check ssl handshake
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http recv(): 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 https ssl handshake: 0x16
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 tcp_nodelay
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 reusable connection: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 ssl get session: 7749F567:32
+2025/09/11 12:41:13 [debug] 2618650#2618650: shmtx lock
+2025/09/11 12:41:13 [debug] 2618650#2618650: shmtx unlock
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL server name: "guilherme-alan-ritter.net"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL ALPN supported by client: h2
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL ALPN supported by client: http/1.1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL ALPN selected: http/1.1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL_do_handshake: -1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL_get_error: 2
+2025/09/11 12:41:13 [debug] 2618650#2618650: timer delta: 21
+2025/09/11 12:41:13 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll timer: 59979
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll: fd:8 ev:0001 d:000056242CB6AED8
+2025/09/11 12:41:13 [debug] 2618650#2618650: accept on 0.0.0.0:443, ready: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: posix_memalign: 000056242CB62490:512 @16
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 accept: 177.174.202.30:55626 fd:15
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 event timer add: 15: 60000:7506145537
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 reusable connection: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 epoll add event: fd:15 op:1 ev:80002001
+2025/09/11 12:41:13 [debug] 2618650#2618650: timer delta: 15
+2025/09/11 12:41:13 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll timer: 59964
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll: fd:15 ev:0001 d:000056242CB6B3B0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 http check ssl handshake
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 http recv(): 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 https ssl handshake: 0x16
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 tcp_nodelay
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 reusable connection: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 ssl get session: BDC1F970:32
+2025/09/11 12:41:13 [debug] 2618650#2618650: shmtx lock
+2025/09/11 12:41:13 [debug] 2618650#2618650: shmtx unlock
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL server name: "guilherme-alan-ritter.net"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL ALPN supported by client: h2
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL ALPN supported by client: http/1.1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL ALPN selected: http/1.1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL_do_handshake: -1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL_get_error: 2
+2025/09/11 12:41:13 [debug] 2618650#2618650: timer delta: 16
+2025/09/11 12:41:13 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll timer: 59948
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll: fd:3 ev:0001 d:000056242CB6B2B8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL handshake handler: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: shmtx lock
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 ssl ticket key: "88988f2f6c75b58c85b2505ae2317aeb"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 ssl ticket key: "fdb4faae9ce52c1b27b70e7289223506"
+2025/09/11 12:41:13 [debug] 2618650#2618650: shmtx unlock
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 ssl ticket encrypt, key: "88988f2f6c75b58c85b2505ae2317aeb" (new session)
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL_do_handshake: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL: TLSv1.2, cipher: "ECDHE-RSA-CHACHA20-POLY1305 TLSv1.2 Kx=ECDH Au=RSA Enc=CHACHA20/POLY1305(256) Mac=AEAD"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 reusable connection: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http wait request handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 malloc: 000056242CABAB90:1024
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL_read: -1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL_get_error: 2
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 free: 000056242CABAB90
+2025/09/11 12:41:13 [debug] 2618650#2618650: timer delta: 151
+2025/09/11 12:41:13 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll timer: 59797
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll: fd:3 ev:0001 d:000056242CB6B2B8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http wait request handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 malloc: 000056242CABAB90:1024
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL_read: 652
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL_read: -1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL_get_error: 2
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 reusable connection: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 posix_memalign: 000056242CAB9570:4096 @16
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http process request line
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request line: "GET /favicon.ico HTTP/1.1"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http uri: "/favicon.ico"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http args: ""
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http exten: "ico"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 posix_memalign: 000056242CB64070:4096 @16
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http process request header line
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "Host: guilherme-alan-ritter.net"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "Connection: keep-alive"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "sec-ch-ua-platform: "Android""
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140""
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "sec-ch-ua-mobile: ?1"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "Sec-Fetch-Site: same-origin"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "Sec-Fetch-Mode: no-cors"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "Sec-Fetch-Dest: image"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "Referer: https://guilherme-alan-ritter.net/mediawiki"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "Accept-Encoding: gzip, deflate, br, zstd"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header: "Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,ja;q=0.6"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http header done
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 event timer del: 3: 7506145501
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/favicon.ico"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/favicon.ico" "/home/guir/web/test_bench_web/build/favicon.ico"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/favicon.ico"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/favicon.ico" "/home/guir/web/test_bench_web/build/favicon.ico"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 internal redirect: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 internal redirect: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 internal redirect: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 internal redirect: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 internal redirect: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 internal redirect: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 internal redirect: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 internal redirect: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 internal redirect: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 internal redirect: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "alpha"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "test_bench"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: "bravo"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 using configuration "/"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http cl:-1 max:104857600
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 rewrite phase: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post rewrite phase: 4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 access phase: 10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 post access phase: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 generic phase: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 try files handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http script var: "/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/11 12:41:13 [error] 2618650#2618650: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 177.174.202.30, server: guilherme-alan-ritter.net, request: "GET /favicon.ico HTTP/1.1", host: "guilherme-alan-ritter.net", referrer: "https://guilherme-alan-ritter.net/mediawiki"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: 500, "/index.html?" a:1, c:12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http special response: 500, "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http set discard body
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 HTTP/1.1 500 Internal Server Error
+Server: nginx/1.28.0
+Date: Thu, 11 Sep 2025 12:41:13 GMT
+Content-Type: text/html
+Content-Length: 579
+Connection: close
+
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 write new buf t:1 f:0 000056242CB647C0, pos 000056242CB647C0, size: 162 file: 0, size: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http write filter: l:0 f:0 s:162
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http output filter "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http copy filter: "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http postpone filter "/index.html?" 000056242CABA560
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 write old buf t:1 f:0 000056242CB647C0, pos 000056242CB647C0, size: 162 file: 0, size: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 write new buf t:0 f:0 0000000000000000, pos 0000562407496500, size: 124 file: 0, size: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 write new buf t:0 f:0 0000000000000000, pos 00005624074976A0, size: 53 file: 0, size: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 write new buf t:0 f:0 0000000000000000, pos 0000562407497480, size: 402 file: 0, size: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http write filter: l:1 f:0 s:741
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http write filter limit 2097152
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 posix_memalign: 000056242CB62280:512 @16
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 malloc: 000056242CBE8300:16384
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL buf copy: 162
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL buf copy: 124
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL buf copy: 53
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL buf copy: 402
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL to write: 741
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL_write: 741
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http write filter 0000000000000000
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http copy filter: 0 "/index.html?"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: 0, "/index.html?" a:1, c:12
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:12 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:11
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:11 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:10
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:10 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:9
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:9 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:8
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:8 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:7
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:7 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:6
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:6 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:5
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:5 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:4
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:4 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:3 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:2
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:2 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http finalize request: -4, "/index.html?" a:1, c:1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http request count:1 blk:0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http close request
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 http log handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 free: 000056242CAB9570, unused: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 free: 000056242CB64070, unused: 1310
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 close http connection: 3
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 SSL_shutdown: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 reusable connection: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 free: 000056242CBE8300
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 free: 000056242CABAB90
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 free: 000056242CA919B0, unused: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *1 free: 000056242CB62280, unused: 384
+2025/09/11 12:41:13 [debug] 2618650#2618650: timer delta: 12
+2025/09/11 12:41:13 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll timer: 59821
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll: fd:15 ev:0001 d:000056242CB6B3B0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL handshake handler: 0
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 ssl ticket encrypt, key: "88988f2f6c75b58c85b2505ae2317aeb" (new session)
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL_do_handshake: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL: TLSv1.2, cipher: "ECDHE-RSA-CHACHA20-POLY1305 TLSv1.2 Kx=ECDH Au=RSA Enc=CHACHA20/POLY1305(256) Mac=AEAD"
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 reusable connection: 1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 http wait request handler
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 malloc: 000056242CABAB90:1024
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL_read: -1
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 SSL_get_error: 2
+2025/09/11 12:41:13 [debug] 2618650#2618650: *2 free: 000056242CABAB90
+2025/09/11 12:41:13 [debug] 2618650#2618650: timer delta: 11
+2025/09/11 12:41:13 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:13 [debug] 2618650#2618650: epoll timer: 59810
+2025/09/11 12:41:23 [debug] 2618650#2618650: epoll: fd:15 ev:2019 d:000056242CB6B3B0
+2025/09/11 12:41:23 [debug] 2618650#2618650: epoll_wait() error on fd:15 ev:2019
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 http wait request handler
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 malloc: 000056242CABAB90:1024
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 SSL_read: -1
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 SSL_get_error: 5
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 peer shutdown SSL cleanly
+2025/09/11 12:41:23 [info] 2618650#2618650: *2 client closed connection while waiting for request, client: 177.174.202.30, server: 0.0.0.0:443
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 close http connection: 15
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 SSL_shutdown: 1
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 event timer del: 15: 7506145537
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 reusable connection: 0
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 free: 000056242CABAB90
+2025/09/11 12:41:23 [debug] 2618650#2618650: *2 free: 000056242CB62490, unused: 0
+2025/09/11 12:41:23 [debug] 2618650#2618650: timer delta: 9056
+2025/09/11 12:41:23 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:23 [debug] 2618650#2618650: epoll timer: -1
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll: fd:8 ev:0001 d:000056242CB6AED8
+2025/09/11 12:41:30 [debug] 2618650#2618650: accept on 0.0.0.0:443, ready: 0
+2025/09/11 12:41:30 [debug] 2618650#2618650: posix_memalign: 000056242CB62490:512 @16
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 accept: 177.174.202.30:55635 fd:3
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 event timer add: 3: 60000:7506161857
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 reusable connection: 1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 epoll add event: fd:3 op:1 ev:80002001
+2025/09/11 12:41:30 [debug] 2618650#2618650: timer delta: 7074
+2025/09/11 12:41:30 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll timer: 60000
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll: fd:3 ev:0001 d:000056242CB6B3B1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 http check ssl handshake
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 http recv(): 1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 https ssl handshake: 0x16
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 tcp_nodelay
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 reusable connection: 0
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL_do_handshake: -1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL_get_error: 2
+2025/09/11 12:41:30 [debug] 2618650#2618650: timer delta: 19
+2025/09/11 12:41:30 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll timer: 59981
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll: fd:8 ev:0001 d:000056242CB6AED8
+2025/09/11 12:41:30 [debug] 2618650#2618650: accept on 0.0.0.0:443, ready: 0
+2025/09/11 12:41:30 [debug] 2618650#2618650: posix_memalign: 000056242CB62280:512 @16
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 accept: 177.174.202.30:55639 fd:15
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 event timer add: 15: 60000:7506161884
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 reusable connection: 1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 epoll add event: fd:15 op:1 ev:80002001
+2025/09/11 12:41:30 [debug] 2618650#2618650: timer delta: 8
+2025/09/11 12:41:30 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll timer: 59973
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll: fd:3 ev:0001 d:000056242CB6B3B1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL handshake handler: 0
+2025/09/11 12:41:30 [debug] 2618650#2618650: shmtx lock
+2025/09/11 12:41:30 [debug] 2618650#2618650: shmtx unlock
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 ssl ticket decrypt, key: "88988f2f6c75b58c85b2505ae2317aeb" (default)
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL server name: "guilherme-alan-ritter.net"
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL ALPN supported by client: h2
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL ALPN supported by client: http/1.1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL ALPN selected: http/1.1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL_do_handshake: -1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL_get_error: 2
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll: fd:15 ev:0001 d:000056242CB6B2B9
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 http check ssl handshake
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 http recv(): 1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 https ssl handshake: 0x16
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 tcp_nodelay
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 reusable connection: 0
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 ssl ticket decrypt, key: "88988f2f6c75b58c85b2505ae2317aeb" (default)
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL server name: "guilherme-alan-ritter.net"
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL ALPN supported by client: h2
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL ALPN supported by client: http/1.1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL ALPN selected: http/1.1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL_do_handshake: -1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL_get_error: 2
+2025/09/11 12:41:30 [debug] 2618650#2618650: timer delta: 2
+2025/09/11 12:41:30 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll timer: 59971
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll: fd:15 ev:0001 d:000056242CB6B2B9
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL handshake handler: 0
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL_do_handshake: 1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL: TLSv1.2, cipher: "ECDHE-RSA-CHACHA20-POLY1305 TLSv1.2 Kx=ECDH Au=RSA Enc=CHACHA20/POLY1305(256) Mac=AEAD"
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL reused session
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 reusable connection: 1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 http wait request handler
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 malloc: 000056242CABAB90:1024
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL_read: -1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 SSL_get_error: 2
+2025/09/11 12:41:30 [debug] 2618650#2618650: *4 free: 000056242CABAB90
+2025/09/11 12:41:30 [debug] 2618650#2618650: timer delta: 212
+2025/09/11 12:41:30 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll timer: 59759
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll: fd:3 ev:0001 d:000056242CB6B3B1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL handshake handler: 0
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL_do_handshake: 1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL: TLSv1.2, cipher: "ECDHE-RSA-CHACHA20-POLY1305 TLSv1.2 Kx=ECDH Au=RSA Enc=CHACHA20/POLY1305(256) Mac=AEAD"
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL reused session
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 reusable connection: 1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 http wait request handler
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 malloc: 000056242CABAB90:1024
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL_read: -1
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 SSL_get_error: 2
+2025/09/11 12:41:30 [debug] 2618650#2618650: *3 free: 000056242CABAB90
+2025/09/11 12:41:30 [debug] 2618650#2618650: timer delta: 0
+2025/09/11 12:41:30 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:41:30 [debug] 2618650#2618650: epoll timer: 59759
+2025/09/11 12:42:25 [debug] 2618650#2618650: epoll: fd:15 ev:2019 d:000056242CB6B2B9
+2025/09/11 12:42:25 [debug] 2618650#2618650: epoll_wait() error on fd:15 ev:2019
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 http wait request handler
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 malloc: 000056242CABAB90:1024
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 SSL_read: -1
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 SSL_get_error: 5
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 peer shutdown SSL cleanly
+2025/09/11 12:42:25 [info] 2618650#2618650: *4 client closed connection while waiting for request, client: 177.174.202.30, server: 0.0.0.0:443
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 close http connection: 15
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 SSL_shutdown: 1
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 event timer del: 15: 7506161884
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 reusable connection: 0
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 free: 000056242CABAB90
+2025/09/11 12:42:25 [debug] 2618650#2618650: *4 free: 000056242CB62280, unused: 0
+2025/09/11 12:42:25 [debug] 2618650#2618650: timer delta: 55219
+2025/09/11 12:42:25 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:42:25 [debug] 2618650#2618650: epoll timer: 4540
+2025/09/11 12:42:25 [debug] 2618650#2618650: epoll: fd:3 ev:2019 d:000056242CB6B3B1
+2025/09/11 12:42:25 [debug] 2618650#2618650: epoll_wait() error on fd:3 ev:2019
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 http wait request handler
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 malloc: 000056242CABAB90:1024
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 SSL_read: -1
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 SSL_get_error: 5
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 peer shutdown SSL cleanly
+2025/09/11 12:42:25 [info] 2618650#2618650: *3 client closed connection while waiting for request, client: 177.174.202.30, server: 0.0.0.0:443
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 close http connection: 3
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 SSL_shutdown: 1
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 event timer del: 3: 7506161857
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 reusable connection: 0
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 free: 000056242CABAB90
+2025/09/11 12:42:25 [debug] 2618650#2618650: *3 free: 000056242CB62490, unused: 0
+2025/09/11 12:42:25 [debug] 2618650#2618650: timer delta: 1
+2025/09/11 12:42:25 [debug] 2618650#2618650: worker cycle
+2025/09/11 12:42:25 [debug] 2618650#2618650: epoll timer: -1
