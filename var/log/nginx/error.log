@@ -1,1222 +1,1222 @@
-2025/09/19 14:33:10 [debug] 3712518#3712518: epoll: fd:8 ev:0001 d:000055B08BA6C228
-2025/09/19 14:33:10 [debug] 3712518#3712518: accept on 0.0.0.0:443, ready: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: posix_memalign: 000055B08B9919B0:512 @16
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 accept: 31.97.138.182:36762 fd:3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 event timer add: 3: 60000:8204062239
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 reusable connection: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 epoll add event: fd:3 op:1 ev:80002001
-2025/09/19 14:33:10 [debug] 3712518#3712518: timer delta: 18517
-2025/09/19 14:33:10 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:10 [debug] 3712518#3712518: epoll timer: 60000
-2025/09/19 14:33:10 [debug] 3712518#3712518: epoll: fd:3 ev:0001 d:000055B08BA6C608
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http check ssl handshake
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http recv(): 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 https ssl handshake: 0x16
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 tcp_nodelay
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 reusable connection: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL server name: "guilherme-alan-ritter.net"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL_do_handshake: -1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL_get_error: 2
-2025/09/19 14:33:10 [debug] 3712518#3712518: timer delta: 21
-2025/09/19 14:33:10 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:10 [debug] 3712518#3712518: epoll timer: 59979
-2025/09/19 14:33:10 [debug] 3712518#3712518: epoll: fd:3 ev:0001 d:000055B08BA6C608
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL handshake handler: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL_do_handshake: -1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL_get_error: 2
-2025/09/19 14:33:10 [debug] 3712518#3712518: timer delta: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:10 [debug] 3712518#3712518: epoll timer: 59974
-2025/09/19 14:33:10 [debug] 3712518#3712518: epoll: fd:3 ev:0001 d:000055B08BA6C608
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL handshake handler: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: shmtx lock
-2025/09/19 14:33:10 [debug] 3712518#3712518: slab alloc: 112 slot: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1E000
-2025/09/19 14:33:10 [debug] 3712518#3712518: slab alloc: 179 slot: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1F000
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 ssl new session: 8481E945:32:179
-2025/09/19 14:33:10 [debug] 3712518#3712518: shmtx unlock
-2025/09/19 14:33:10 [debug] 3712518#3712518: shmtx lock
-2025/09/19 14:33:10 [debug] 3712518#3712518: slab alloc: 112 slot: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1E080
-2025/09/19 14:33:10 [debug] 3712518#3712518: slab alloc: 180 slot: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1F100
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 ssl new session: CE8721DE:32:180
-2025/09/19 14:33:10 [debug] 3712518#3712518: shmtx unlock
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL_do_handshake: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL: TLSv1.3, cipher: "TLS_AES_256_GCM_SHA384 TLSv1.3 Kx=any Au=any Enc=AESGCM(256) Mac=AEAD"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 reusable connection: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http wait request handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 malloc: 000055B08B994200:1024
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL_read: 257
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL_read: -1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL_get_error: 2
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 reusable connection: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 posix_memalign: 000055B08BA653C0:4096 @16
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http process request line
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request line: "GET /media_wiki HTTP/1.0"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http uri: "/media_wiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http args: ""
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http exten: ""
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 posix_memalign: 000055B08B9B9570:4096 @16
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http process request header line
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http header: "Host: guilherme-alan-ritter.net"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http header: "Accept: text/html, text/plain, text/sgml, text/css, */*;q=0.01"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http header: "Accept-Encoding: gzip, compress, bzip2"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http header: "Accept-Language: en"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http header: "User-Agent: Lynx/2.9.0dev.12 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.8"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http header done
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 event timer del: 3: 8204062239
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/media_wiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/media_wiki" "/home/guir/web/test_bench_web/build/media_wiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/media_wiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/media_wiki" "/home/guir/web/test_bench_web/build/media_wiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 internal redirect: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 internal redirect: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 internal redirect: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 internal redirect: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 internal redirect: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 internal redirect: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 internal redirect: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 internal redirect: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 internal redirect: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 internal redirect: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "bravo"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "test_bench"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: "mediawiki"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 using configuration "/"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http cl:-1 max:104857600
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 rewrite phase: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post rewrite phase: 4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 access phase: 10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 post access phase: 11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 generic phase: 12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 try files handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http script var: "/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:10 [error] 3712518#3712518: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 31.97.138.182, server: guilherme-alan-ritter.net, request: "GET /media_wiki HTTP/1.0", host: "guilherme-alan-ritter.net"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: 500, "/index.html?" a:1, c:12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http special response: 500, "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http set discard body
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 HTTP/1.1 500 Internal Server Error
+2025/09/19 14:42:52 [debug] 3715677#3715677: epoll: fd:8 ev:0001 d:0000560666B0F228
+2025/09/19 14:42:52 [debug] 3715677#3715677: accept on 0.0.0.0:443, ready: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: posix_memalign: 0000560666A349B0:512 @16
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 accept: 31.97.138.182:54744 fd:3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 event timer add: 3: 60000:8204643774
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 reusable connection: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 epoll add event: fd:3 op:1 ev:80002001
+2025/09/19 14:42:52 [debug] 3715677#3715677: timer delta: 10135
+2025/09/19 14:42:52 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:42:52 [debug] 3715677#3715677: epoll timer: 60000
+2025/09/19 14:42:52 [debug] 3715677#3715677: epoll: fd:3 ev:0001 d:0000560666B0F608
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http check ssl handshake
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http recv(): 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 https ssl handshake: 0x16
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 tcp_nodelay
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 reusable connection: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL server name: "guilherme-alan-ritter.net"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL_do_handshake: -1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL_get_error: 2
+2025/09/19 14:42:52 [debug] 3715677#3715677: timer delta: 15
+2025/09/19 14:42:52 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:42:52 [debug] 3715677#3715677: epoll timer: 59985
+2025/09/19 14:42:52 [debug] 3715677#3715677: epoll: fd:3 ev:0001 d:0000560666B0F608
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL handshake handler: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL_do_handshake: -1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL_get_error: 2
+2025/09/19 14:42:52 [debug] 3715677#3715677: timer delta: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:42:52 [debug] 3715677#3715677: epoll timer: 59982
+2025/09/19 14:42:52 [debug] 3715677#3715677: epoll: fd:3 ev:0001 d:0000560666B0F608
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL handshake handler: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: shmtx lock
+2025/09/19 14:42:52 [debug] 3715677#3715677: slab alloc: 112 slot: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1E000
+2025/09/19 14:42:52 [debug] 3715677#3715677: slab alloc: 179 slot: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1F000
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 ssl new session: 12C7C2FF:32:179
+2025/09/19 14:42:52 [debug] 3715677#3715677: shmtx unlock
+2025/09/19 14:42:52 [debug] 3715677#3715677: shmtx lock
+2025/09/19 14:42:52 [debug] 3715677#3715677: slab alloc: 112 slot: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1E080
+2025/09/19 14:42:52 [debug] 3715677#3715677: slab alloc: 180 slot: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1F100
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 ssl new session: 8B368477:32:180
+2025/09/19 14:42:52 [debug] 3715677#3715677: shmtx unlock
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL_do_handshake: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL: TLSv1.3, cipher: "TLS_AES_256_GCM_SHA384 TLSv1.3 Kx=any Au=any Enc=AESGCM(256) Mac=AEAD"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 reusable connection: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http wait request handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 malloc: 0000560666A37200:1024
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL_read: 257
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL_read: -1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL_get_error: 2
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 reusable connection: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 posix_memalign: 0000560666B083C0:4096 @16
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http process request line
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request line: "GET /media_wiki HTTP/1.0"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http uri: "/media_wiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http args: ""
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http exten: ""
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 posix_memalign: 0000560666A5C570:4096 @16
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http process request header line
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http header: "Host: guilherme-alan-ritter.net"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http header: "Accept: text/html, text/plain, text/sgml, text/css, */*;q=0.01"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http header: "Accept-Encoding: gzip, compress, bzip2"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http header: "Accept-Language: en"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http header: "User-Agent: Lynx/2.9.0dev.12 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.8"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http header done
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 event timer del: 3: 8204643774
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/media_wiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/media_wiki" "/home/guir/web/test_bench_web/build/media_wiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/media_wiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/media_wiki" "/home/guir/web/test_bench_web/build/media_wiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 internal redirect: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 internal redirect: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 internal redirect: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 internal redirect: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 internal redirect: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 internal redirect: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 internal redirect: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 internal redirect: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 internal redirect: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 internal redirect: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "bravo"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "test_bench"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: "mediawiki"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 using configuration "/"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http cl:-1 max:104857600
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 rewrite phase: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post rewrite phase: 4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 access phase: 10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 post access phase: 11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 generic phase: 12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 try files handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http script var: "/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:42:52 [error] 3715677#3715677: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 31.97.138.182, server: guilherme-alan-ritter.net, request: "GET /media_wiki HTTP/1.0", host: "guilherme-alan-ritter.net"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: 500, "/index.html?" a:1, c:12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http special response: 500, "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http set discard body
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 HTTP/1.1 500 Internal Server Error
 Server: nginx/1.28.0
-Date: Fri, 19 Sep 2025 14:33:10 GMT
+Date: Fri, 19 Sep 2025 14:42:52 GMT
 Content-Type: text/html
 Content-Length: 177
 Connection: close
 
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 write new buf t:1 f:0 000055B08B9B9C40, pos 000055B08B9B9C40, size: 162 file: 0, size: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http write filter: l:0 f:0 s:162
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http output filter "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http copy filter: "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http postpone filter "/index.html?" 000055B08B9B9E18
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 write old buf t:1 f:0 000055B08B9B9C40, pos 000055B08B9B9C40, size: 162 file: 0, size: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 write new buf t:0 f:0 0000000000000000, pos 000055B068437500, size: 124 file: 0, size: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 write new buf t:0 f:0 0000000000000000, pos 000055B0684386A0, size: 53 file: 0, size: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http write filter: l:1 f:0 s:339
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http write filter limit 2097152
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 posix_memalign: 000055B08B980F30:512 @16
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 malloc: 000055B08B998ED0:16384
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL buf copy: 162
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL buf copy: 124
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL buf copy: 53
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL to write: 339
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL_write: 339
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http write filter 0000000000000000
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http copy filter: 0 "/index.html?"
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: 0, "/index.html?" a:1, c:12
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:12 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:11
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:11 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:10
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:10 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:9
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:9 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:8 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:7
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:7 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:6
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:6 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:5
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:5 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:4
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:4 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:3 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:2
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:2 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http finalize request: -4, "/index.html?" a:1, c:1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http request count:1 blk:0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http close request
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 http log handler
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 free: 000055B08BA653C0, unused: 8
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 free: 000055B08B9B9570, unused: 1632
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 close http connection: 3
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 SSL_shutdown: 1
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 reusable connection: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 free: 000055B08B998ED0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 free: 000055B08B994200
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 free: 000055B08B9919B0, unused: 0
-2025/09/19 14:33:10 [debug] 3712518#3712518: *1 free: 000055B08B980F30, unused: 384
-2025/09/19 14:33:10 [debug] 3712518#3712518: timer delta: 43
-2025/09/19 14:33:10 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:10 [debug] 3712518#3712518: epoll timer: -1
-2025/09/19 14:33:21 [debug] 3712518#3712518: epoll: fd:8 ev:0001 d:000055B08BA6C228
-2025/09/19 14:33:21 [debug] 3712518#3712518: accept on 0.0.0.0:443, ready: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: posix_memalign: 000055B08B980F30:512 @16
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 accept: 31.97.138.182:57680 fd:3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 event timer add: 3: 60000:8204073098
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 reusable connection: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 epoll add event: fd:3 op:1 ev:80002001
-2025/09/19 14:33:21 [debug] 3712518#3712518: timer delta: 10790
-2025/09/19 14:33:21 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:21 [debug] 3712518#3712518: epoll timer: 60000
-2025/09/19 14:33:21 [debug] 3712518#3712518: epoll: fd:3 ev:0001 d:000055B08BA6C609
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http check ssl handshake
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http recv(): 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 https ssl handshake: 0x16
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 tcp_nodelay
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 reusable connection: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL server name: "guilherme-alan-ritter.net"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL_do_handshake: -1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL_get_error: 2
-2025/09/19 14:33:21 [debug] 3712518#3712518: timer delta: 18
-2025/09/19 14:33:21 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:21 [debug] 3712518#3712518: epoll timer: 59982
-2025/09/19 14:33:21 [debug] 3712518#3712518: epoll: fd:3 ev:0001 d:000055B08BA6C609
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL handshake handler: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL_do_handshake: -1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL_get_error: 2
-2025/09/19 14:33:21 [debug] 3712518#3712518: timer delta: 2
-2025/09/19 14:33:21 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:21 [debug] 3712518#3712518: epoll timer: 59980
-2025/09/19 14:33:21 [debug] 3712518#3712518: epoll: fd:3 ev:0001 d:000055B08BA6C609
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL handshake handler: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: shmtx lock
-2025/09/19 14:33:21 [debug] 3712518#3712518: slab alloc: 112 slot: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1E100
-2025/09/19 14:33:21 [debug] 3712518#3712518: slab alloc: 180 slot: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1F200
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 ssl new session: 5A9173A5:32:180
-2025/09/19 14:33:21 [debug] 3712518#3712518: shmtx unlock
-2025/09/19 14:33:21 [debug] 3712518#3712518: shmtx lock
-2025/09/19 14:33:21 [debug] 3712518#3712518: slab alloc: 112 slot: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1E180
-2025/09/19 14:33:21 [debug] 3712518#3712518: slab alloc: 179 slot: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1F300
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 ssl new session: C1C094B6:32:179
-2025/09/19 14:33:21 [debug] 3712518#3712518: shmtx unlock
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL_do_handshake: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL: TLSv1.3, cipher: "TLS_AES_256_GCM_SHA384 TLSv1.3 Kx=any Au=any Enc=AESGCM(256) Mac=AEAD"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 reusable connection: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http wait request handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 malloc: 000055B08B994200:1024
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL_read: 256
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL_read: -1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL_get_error: 2
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 reusable connection: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 posix_memalign: 000055B08B9B9570:4096 @16
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http process request line
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request line: "GET /index.php HTTP/1.0"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http uri: "/index.php"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http args: ""
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http exten: "php"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 posix_memalign: 000055B08BA653C0:4096 @16
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http process request header line
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http header: "Host: guilherme-alan-ritter.net"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http header: "Accept: text/html, text/plain, text/sgml, text/css, */*;q=0.01"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http header: "Accept-Encoding: gzip, compress, bzip2"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http header: "Accept-Language: en"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http header: "User-Agent: Lynx/2.9.0dev.12 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.8"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http header done
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 event timer del: 3: 8204073098
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "test_bench"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "mediawiki"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script complex value
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/home/guir/web/test_bench_web/build"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.php"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script copy: " "
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script file op 0000000000000001 "/home/guir/web/test_bench_web/build/index.php"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script if
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: 404, "/index.php?" a:1, c:1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http special response: 404, "/index.php?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 internal redirect: "/404.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "50x.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "40x.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post rewrite phase: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post access phase: 11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 try files handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/404.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/404.html" "/home/guir/web/test_bench_web/build/404.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/404.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use dir: "/404.html" "/home/guir/web/test_bench_web/build/404.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 internal redirect: "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "test_bench"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "mediawiki"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post rewrite phase: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post access phase: 11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 try files handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 internal redirect: "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "test_bench"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "mediawiki"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post rewrite phase: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post access phase: 11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 try files handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 internal redirect: "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "test_bench"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "mediawiki"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post rewrite phase: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post access phase: 11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 try files handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 internal redirect: "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "test_bench"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "mediawiki"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post rewrite phase: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post access phase: 11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 try files handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 internal redirect: "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "test_bench"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "mediawiki"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post rewrite phase: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post access phase: 11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 try files handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 internal redirect: "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "test_bench"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "mediawiki"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post rewrite phase: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post access phase: 11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 try files handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 internal redirect: "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "test_bench"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "mediawiki"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post rewrite phase: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post access phase: 11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 try files handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 internal redirect: "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "test_bench"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "mediawiki"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post rewrite phase: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post access phase: 11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 try files handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 internal redirect: "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "bravo"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "test_bench"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: "mediawiki"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 using configuration "/"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http cl:-1 max:104857600
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 rewrite phase: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post rewrite phase: 4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 access phase: 10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 post access phase: 11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 generic phase: 12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 try files handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http script var: "/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:21 [error] 3712518#3712518: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 31.97.138.182, server: guilherme-alan-ritter.net, request: "GET /index.php HTTP/1.0", host: "guilherme-alan-ritter.net"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: 500, "/index.html?" a:1, c:12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http special response: 500, "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http set discard body
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 HTTP/1.1 500 Internal Server Error
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 write new buf t:1 f:0 0000560666A5CC40, pos 0000560666A5CC40, size: 162 file: 0, size: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http write filter: l:0 f:0 s:162
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http output filter "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http copy filter: "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http postpone filter "/index.html?" 0000560666A5CE18
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 write old buf t:1 f:0 0000560666A5CC40, pos 0000560666A5CC40, size: 162 file: 0, size: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 write new buf t:0 f:0 0000000000000000, pos 000056064761F500, size: 124 file: 0, size: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 write new buf t:0 f:0 0000000000000000, pos 00005606476206A0, size: 53 file: 0, size: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http write filter: l:1 f:0 s:339
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http write filter limit 2097152
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 posix_memalign: 0000560666A23F30:512 @16
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 malloc: 0000560666A3BED0:16384
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL buf copy: 162
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL buf copy: 124
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL buf copy: 53
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL to write: 339
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL_write: 339
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http write filter 0000000000000000
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http copy filter: 0 "/index.html?"
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: 0, "/index.html?" a:1, c:12
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:12 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:11
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:11 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:10
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:10 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:9
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:9 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:8 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:7
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:7 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:6
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:6 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:5
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:5 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:4
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:4 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:3 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:2
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:2 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http finalize request: -4, "/index.html?" a:1, c:1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http request count:1 blk:0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http close request
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 http log handler
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 free: 0000560666B083C0, unused: 8
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 free: 0000560666A5C570, unused: 1632
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 close http connection: 3
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 SSL_shutdown: 1
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 reusable connection: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 free: 0000560666A3BED0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 free: 0000560666A37200
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 free: 0000560666A349B0, unused: 0
+2025/09/19 14:42:52 [debug] 3715677#3715677: *1 free: 0000560666A23F30, unused: 384
+2025/09/19 14:42:52 [debug] 3715677#3715677: timer delta: 44
+2025/09/19 14:42:52 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:42:52 [debug] 3715677#3715677: epoll timer: -1
+2025/09/19 14:43:01 [debug] 3715677#3715677: epoll: fd:8 ev:0001 d:0000560666B0F228
+2025/09/19 14:43:01 [debug] 3715677#3715677: accept on 0.0.0.0:443, ready: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: posix_memalign: 0000560666A23F30:512 @16
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 accept: 31.97.138.182:47470 fd:3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 event timer add: 3: 60000:8204653127
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 reusable connection: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 epoll add event: fd:3 op:1 ev:80002001
+2025/09/19 14:43:01 [debug] 3715677#3715677: timer delta: 9291
+2025/09/19 14:43:01 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:43:01 [debug] 3715677#3715677: epoll timer: 60000
+2025/09/19 14:43:01 [debug] 3715677#3715677: epoll: fd:3 ev:0001 d:0000560666B0F609
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http check ssl handshake
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http recv(): 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 https ssl handshake: 0x16
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 tcp_nodelay
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 reusable connection: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL server name: "guilherme-alan-ritter.net"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL_do_handshake: -1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL_get_error: 2
+2025/09/19 14:43:01 [debug] 3715677#3715677: timer delta: 16
+2025/09/19 14:43:01 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:43:01 [debug] 3715677#3715677: epoll timer: 59984
+2025/09/19 14:43:01 [debug] 3715677#3715677: epoll: fd:3 ev:0001 d:0000560666B0F609
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL handshake handler: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL_do_handshake: -1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL_get_error: 2
+2025/09/19 14:43:01 [debug] 3715677#3715677: timer delta: 2
+2025/09/19 14:43:01 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:43:01 [debug] 3715677#3715677: epoll timer: 59982
+2025/09/19 14:43:01 [debug] 3715677#3715677: epoll: fd:3 ev:0001 d:0000560666B0F609
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL handshake handler: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: shmtx lock
+2025/09/19 14:43:01 [debug] 3715677#3715677: slab alloc: 112 slot: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1E100
+2025/09/19 14:43:01 [debug] 3715677#3715677: slab alloc: 180 slot: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1F200
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 ssl new session: 8EC51218:32:180
+2025/09/19 14:43:01 [debug] 3715677#3715677: shmtx unlock
+2025/09/19 14:43:01 [debug] 3715677#3715677: shmtx lock
+2025/09/19 14:43:01 [debug] 3715677#3715677: slab alloc: 112 slot: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1E180
+2025/09/19 14:43:01 [debug] 3715677#3715677: slab alloc: 179 slot: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1F300
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 ssl new session: DEDBC6A8:32:179
+2025/09/19 14:43:01 [debug] 3715677#3715677: shmtx unlock
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL_do_handshake: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL: TLSv1.3, cipher: "TLS_AES_256_GCM_SHA384 TLSv1.3 Kx=any Au=any Enc=AESGCM(256) Mac=AEAD"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 reusable connection: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http wait request handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 malloc: 0000560666A37200:1024
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL_read: 256
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL_read: -1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL_get_error: 2
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 reusable connection: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 posix_memalign: 0000560666A5C570:4096 @16
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http process request line
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request line: "GET /index.php HTTP/1.0"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http uri: "/index.php"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http args: ""
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http exten: "php"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 posix_memalign: 0000560666B083C0:4096 @16
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http process request header line
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http header: "Host: guilherme-alan-ritter.net"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http header: "Accept: text/html, text/plain, text/sgml, text/css, */*;q=0.01"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http header: "Accept-Encoding: gzip, compress, bzip2"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http header: "Accept-Language: en"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http header: "User-Agent: Lynx/2.9.0dev.12 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.8"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http header done
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 event timer del: 3: 8204653127
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "test_bench"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "mediawiki"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script complex value
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/home/guir/web/test_bench_web/build"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.php"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script copy: " "
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script file op 0000000000000001 "/home/guir/web/test_bench_web/build/index.php"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script if
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: 404, "/index.php?" a:1, c:1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http special response: 404, "/index.php?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 internal redirect: "/404.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "50x.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "40x.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post rewrite phase: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post access phase: 11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 try files handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/404.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/404.html" "/home/guir/web/test_bench_web/build/404.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/404.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use dir: "/404.html" "/home/guir/web/test_bench_web/build/404.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 internal redirect: "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "test_bench"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "mediawiki"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post rewrite phase: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post access phase: 11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 try files handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 internal redirect: "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "test_bench"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "mediawiki"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post rewrite phase: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post access phase: 11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 try files handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 internal redirect: "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "test_bench"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "mediawiki"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post rewrite phase: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post access phase: 11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 try files handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 internal redirect: "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "test_bench"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "mediawiki"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post rewrite phase: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post access phase: 11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 try files handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 internal redirect: "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "test_bench"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "mediawiki"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post rewrite phase: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post access phase: 11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 try files handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 internal redirect: "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "test_bench"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "mediawiki"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post rewrite phase: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post access phase: 11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 try files handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 internal redirect: "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "test_bench"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "mediawiki"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post rewrite phase: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post access phase: 11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 try files handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 internal redirect: "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "test_bench"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "mediawiki"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post rewrite phase: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post access phase: 11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 try files handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 internal redirect: "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "bravo"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "test_bench"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: "mediawiki"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 using configuration "/"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http cl:-1 max:104857600
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 rewrite phase: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post rewrite phase: 4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 access phase: 10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 post access phase: 11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 generic phase: 12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 try files handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http script var: "/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:01 [error] 3715677#3715677: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 31.97.138.182, server: guilherme-alan-ritter.net, request: "GET /index.php HTTP/1.0", host: "guilherme-alan-ritter.net"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: 500, "/index.html?" a:1, c:12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http special response: 500, "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http set discard body
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 HTTP/1.1 500 Internal Server Error
 Server: nginx/1.28.0
-Date: Fri, 19 Sep 2025 14:33:21 GMT
+Date: Fri, 19 Sep 2025 14:43:01 GMT
 Content-Type: text/html
 Content-Length: 177
 Connection: close
 
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 write new buf t:1 f:0 000055B08BA65BE0, pos 000055B08BA65BE0, size: 162 file: 0, size: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http write filter: l:0 f:0 s:162
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http output filter "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http copy filter: "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http postpone filter "/index.html?" 000055B08BA65DC8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 write old buf t:1 f:0 000055B08BA65BE0, pos 000055B08BA65BE0, size: 162 file: 0, size: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 write new buf t:0 f:0 0000000000000000, pos 000055B068437500, size: 124 file: 0, size: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 write new buf t:0 f:0 0000000000000000, pos 000055B0684386A0, size: 53 file: 0, size: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http write filter: l:1 f:0 s:339
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http write filter limit 2097152
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 posix_memalign: 000055B08B9919B0:512 @16
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 malloc: 000055B08B998ED0:16384
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL buf copy: 162
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL buf copy: 124
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL buf copy: 53
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL to write: 339
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL_write: 339
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http write filter 0000000000000000
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http copy filter: 0 "/index.html?"
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: 0, "/index.html?" a:1, c:12
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:12 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:11
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:11 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:10
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:10 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:9
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:9 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:8 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:7
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:7 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:6
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:6 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:5
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:5 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:4
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:4 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:3 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:2
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:2 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http finalize request: -4, "/index.html?" a:1, c:1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http request count:1 blk:0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http close request
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 http log handler
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 free: 000055B08B9B9570, unused: 8
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 free: 000055B08BA653C0, unused: 1281
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 close http connection: 3
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 SSL_shutdown: 1
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 reusable connection: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 free: 000055B08B998ED0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 free: 000055B08B994200
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 free: 000055B08B980F30, unused: 0
-2025/09/19 14:33:21 [debug] 3712518#3712518: *2 free: 000055B08B9919B0, unused: 384
-2025/09/19 14:33:21 [debug] 3712518#3712518: timer delta: 42
-2025/09/19 14:33:21 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:21 [debug] 3712518#3712518: epoll timer: -1
-2025/09/19 14:33:30 [debug] 3712518#3712518: epoll: fd:8 ev:0001 d:000055B08BA6C228
-2025/09/19 14:33:30 [debug] 3712518#3712518: accept on 0.0.0.0:443, ready: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: posix_memalign: 000055B08B9919B0:512 @16
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 accept: 31.97.138.182:37370 fd:3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 event timer add: 3: 60000:8204082600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 reusable connection: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 epoll add event: fd:3 op:1 ev:80002001
-2025/09/19 14:33:30 [debug] 3712518#3712518: timer delta: 9440
-2025/09/19 14:33:30 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:30 [debug] 3712518#3712518: epoll timer: 60000
-2025/09/19 14:33:30 [debug] 3712518#3712518: epoll: fd:3 ev:0001 d:000055B08BA6C608
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http check ssl handshake
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http recv(): 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 https ssl handshake: 0x16
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 tcp_nodelay
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 reusable connection: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL server name: "guilherme-alan-ritter.net"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL_do_handshake: -1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL_get_error: 2
-2025/09/19 14:33:30 [debug] 3712518#3712518: timer delta: 23
-2025/09/19 14:33:30 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:30 [debug] 3712518#3712518: epoll timer: 59977
-2025/09/19 14:33:30 [debug] 3712518#3712518: epoll: fd:3 ev:0001 d:000055B08BA6C608
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL handshake handler: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL_do_handshake: -1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL_get_error: 2
-2025/09/19 14:33:30 [debug] 3712518#3712518: timer delta: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:30 [debug] 3712518#3712518: epoll timer: 59976
-2025/09/19 14:33:30 [debug] 3712518#3712518: epoll: fd:3 ev:0001 d:000055B08BA6C608
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL handshake handler: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: shmtx lock
-2025/09/19 14:33:30 [debug] 3712518#3712518: slab alloc: 112 slot: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1E200
-2025/09/19 14:33:30 [debug] 3712518#3712518: slab alloc: 179 slot: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1F400
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 ssl new session: 343D2D7D:32:179
-2025/09/19 14:33:30 [debug] 3712518#3712518: shmtx unlock
-2025/09/19 14:33:30 [debug] 3712518#3712518: shmtx lock
-2025/09/19 14:33:30 [debug] 3712518#3712518: slab alloc: 112 slot: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1E280
-2025/09/19 14:33:30 [debug] 3712518#3712518: slab alloc: 180 slot: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: slab alloc: 00007FB8FDC1F500
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 ssl new session: DEBDBCE7:32:180
-2025/09/19 14:33:30 [debug] 3712518#3712518: shmtx unlock
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL_do_handshake: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL: TLSv1.3, cipher: "TLS_AES_256_GCM_SHA384 TLSv1.3 Kx=any Au=any Enc=AESGCM(256) Mac=AEAD"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 reusable connection: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http wait request handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 malloc: 000055B08B994200:1024
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL_read: 267
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL_read: -1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL_get_error: 2
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 reusable connection: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 posix_memalign: 000055B08B9B9570:4096 @16
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http process request line
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request line: "GET /media_wiki/index.php HTTP/1.0"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http uri: "/media_wiki/index.php"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http args: ""
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http exten: "php"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 posix_memalign: 000055B08BA653C0:4096 @16
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http process request header line
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http header: "Host: guilherme-alan-ritter.net"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http header: "Accept: text/html, text/plain, text/sgml, text/css, */*;q=0.01"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http header: "Accept-Encoding: gzip, compress, bzip2"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http header: "Accept-Language: en"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http header: "User-Agent: Lynx/2.9.0dev.12 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.8"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http header done
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 event timer del: 3: 8204082600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "test_bench"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "mediawiki"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script complex value
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/home/guir/web/test_bench_web/build"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/media_wiki/index.php"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script copy: " "
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script file op 0000000000000001 "/home/guir/web/test_bench_web/build/media_wiki/index.php"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script if
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: 404, "/media_wiki/index.php?" a:1, c:1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http special response: 404, "/media_wiki/index.php?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 internal redirect: "/404.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "50x.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "40x.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post rewrite phase: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post access phase: 11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 try files handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/404.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/404.html" "/home/guir/web/test_bench_web/build/404.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/404.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use dir: "/404.html" "/home/guir/web/test_bench_web/build/404.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 internal redirect: "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "test_bench"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "mediawiki"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post rewrite phase: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post access phase: 11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 try files handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 internal redirect: "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "test_bench"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "mediawiki"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post rewrite phase: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post access phase: 11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 try files handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 internal redirect: "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "test_bench"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "mediawiki"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post rewrite phase: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post access phase: 11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 try files handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 internal redirect: "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "test_bench"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "mediawiki"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post rewrite phase: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post access phase: 11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 try files handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 internal redirect: "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "test_bench"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "mediawiki"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post rewrite phase: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post access phase: 11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 try files handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 internal redirect: "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "test_bench"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "mediawiki"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post rewrite phase: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post access phase: 11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 try files handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 internal redirect: "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "test_bench"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "mediawiki"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post rewrite phase: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post access phase: 11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 try files handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 internal redirect: "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "test_bench"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "mediawiki"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post rewrite phase: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post access phase: 11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 try files handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 internal redirect: "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "bravo"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "test_bench"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: "mediawiki"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 test location: ~ "[^/]\.php(/|$)"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 using configuration "/"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http cl:-1 max:104857600
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 rewrite phase: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post rewrite phase: 4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 access phase: 10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 post access phase: 11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 generic phase: 12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 try files handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http script var: "/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
-2025/09/19 14:33:30 [error] 3712518#3712518: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 31.97.138.182, server: guilherme-alan-ritter.net, request: "GET /media_wiki/index.php HTTP/1.0", host: "guilherme-alan-ritter.net"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: 500, "/index.html?" a:1, c:12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http special response: 500, "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http set discard body
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 HTTP/1.1 500 Internal Server Error
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 write new buf t:1 f:0 0000560666B08BE0, pos 0000560666B08BE0, size: 162 file: 0, size: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http write filter: l:0 f:0 s:162
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http output filter "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http copy filter: "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http postpone filter "/index.html?" 0000560666B08DC8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 write old buf t:1 f:0 0000560666B08BE0, pos 0000560666B08BE0, size: 162 file: 0, size: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 write new buf t:0 f:0 0000000000000000, pos 000056064761F500, size: 124 file: 0, size: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 write new buf t:0 f:0 0000000000000000, pos 00005606476206A0, size: 53 file: 0, size: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http write filter: l:1 f:0 s:339
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http write filter limit 2097152
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 posix_memalign: 0000560666A349B0:512 @16
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 malloc: 0000560666A3BED0:16384
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL buf copy: 162
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL buf copy: 124
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL buf copy: 53
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL to write: 339
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL_write: 339
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http write filter 0000000000000000
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http copy filter: 0 "/index.html?"
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: 0, "/index.html?" a:1, c:12
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:12 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:11
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:11 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:10
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:10 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:9
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:9 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:8 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:7
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:7 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:6
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:6 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:5
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:5 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:4
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:4 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:3 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:2
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:2 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http finalize request: -4, "/index.html?" a:1, c:1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http request count:1 blk:0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http close request
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 http log handler
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 free: 0000560666A5C570, unused: 8
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 free: 0000560666B083C0, unused: 1281
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 close http connection: 3
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 SSL_shutdown: 1
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 reusable connection: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 free: 0000560666A3BED0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 free: 0000560666A37200
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 free: 0000560666A23F30, unused: 0
+2025/09/19 14:43:01 [debug] 3715677#3715677: *2 free: 0000560666A349B0, unused: 384
+2025/09/19 14:43:01 [debug] 3715677#3715677: timer delta: 43
+2025/09/19 14:43:01 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:43:01 [debug] 3715677#3715677: epoll timer: -1
+2025/09/19 14:43:11 [debug] 3715677#3715677: epoll: fd:8 ev:0001 d:0000560666B0F228
+2025/09/19 14:43:11 [debug] 3715677#3715677: accept on 0.0.0.0:443, ready: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: posix_memalign: 0000560666A349B0:512 @16
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 accept: 31.97.138.182:37584 fd:3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 event timer add: 3: 60000:8204663308
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 reusable connection: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 epoll add event: fd:3 op:1 ev:80002001
+2025/09/19 14:43:11 [debug] 3715677#3715677: timer delta: 10120
+2025/09/19 14:43:11 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:43:11 [debug] 3715677#3715677: epoll timer: 60000
+2025/09/19 14:43:11 [debug] 3715677#3715677: epoll: fd:3 ev:0001 d:0000560666B0F608
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http check ssl handshake
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http recv(): 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 https ssl handshake: 0x16
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 tcp_nodelay
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 reusable connection: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL server name: "guilherme-alan-ritter.net"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL_do_handshake: -1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL_get_error: 2
+2025/09/19 14:43:11 [debug] 3715677#3715677: timer delta: 15
+2025/09/19 14:43:11 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:43:11 [debug] 3715677#3715677: epoll timer: 59985
+2025/09/19 14:43:11 [debug] 3715677#3715677: epoll: fd:3 ev:0001 d:0000560666B0F608
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL handshake handler: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL_do_handshake: -1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL_get_error: 2
+2025/09/19 14:43:11 [debug] 3715677#3715677: timer delta: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:43:11 [debug] 3715677#3715677: epoll timer: 59984
+2025/09/19 14:43:11 [debug] 3715677#3715677: epoll: fd:3 ev:0001 d:0000560666B0F608
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL handshake handler: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: shmtx lock
+2025/09/19 14:43:11 [debug] 3715677#3715677: slab alloc: 112 slot: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1E200
+2025/09/19 14:43:11 [debug] 3715677#3715677: slab alloc: 179 slot: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1F400
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 ssl new session: B5489D40:32:179
+2025/09/19 14:43:11 [debug] 3715677#3715677: shmtx unlock
+2025/09/19 14:43:11 [debug] 3715677#3715677: shmtx lock
+2025/09/19 14:43:11 [debug] 3715677#3715677: slab alloc: 112 slot: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1E280
+2025/09/19 14:43:11 [debug] 3715677#3715677: slab alloc: 179 slot: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: slab alloc: 00007FF8C5C1F500
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 ssl new session: 8E74419C:32:179
+2025/09/19 14:43:11 [debug] 3715677#3715677: shmtx unlock
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL_do_handshake: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL: TLSv1.3, cipher: "TLS_AES_256_GCM_SHA384 TLSv1.3 Kx=any Au=any Enc=AESGCM(256) Mac=AEAD"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 reusable connection: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http wait request handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 malloc: 0000560666A37200:1024
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL_read: 267
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL_read: -1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL_get_error: 2
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 reusable connection: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 posix_memalign: 0000560666A5C570:4096 @16
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http process request line
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request line: "GET /media_wiki/index.php HTTP/1.0"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http uri: "/media_wiki/index.php"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http args: ""
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http exten: "php"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 posix_memalign: 0000560666B083C0:4096 @16
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http process request header line
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http header: "Host: guilherme-alan-ritter.net"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http header: "Accept: text/html, text/plain, text/sgml, text/css, */*;q=0.01"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http header: "Accept-Encoding: gzip, compress, bzip2"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http header: "Accept-Language: en"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http header: "User-Agent: Lynx/2.9.0dev.12 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.8"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http header done
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 event timer del: 3: 8204663308
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "test_bench"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "mediawiki"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script complex value
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/home/guir/web/test_bench_web/build"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/media_wiki/index.php"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script copy: " "
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script file op 0000000000000001 "/home/guir/web/test_bench_web/build/media_wiki/index.php"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script if
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: 404, "/media_wiki/index.php?" a:1, c:1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http special response: 404, "/media_wiki/index.php?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 internal redirect: "/404.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "50x.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "40x.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post rewrite phase: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post access phase: 11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 try files handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/404.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/404.html" "/home/guir/web/test_bench_web/build/404.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/404.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use dir: "/404.html" "/home/guir/web/test_bench_web/build/404.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 internal redirect: "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "test_bench"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "mediawiki"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post rewrite phase: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post access phase: 11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 try files handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 internal redirect: "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "test_bench"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "mediawiki"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post rewrite phase: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post access phase: 11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 try files handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 internal redirect: "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "test_bench"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "mediawiki"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post rewrite phase: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post access phase: 11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 try files handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 internal redirect: "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "test_bench"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "mediawiki"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post rewrite phase: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post access phase: 11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 try files handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 internal redirect: "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "test_bench"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "mediawiki"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post rewrite phase: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post access phase: 11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 try files handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 internal redirect: "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "test_bench"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "mediawiki"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post rewrite phase: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post access phase: 11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 try files handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 internal redirect: "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "test_bench"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "mediawiki"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post rewrite phase: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post access phase: 11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 try files handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 internal redirect: "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "test_bench"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "mediawiki"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post rewrite phase: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post access phase: 11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 try files handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 internal redirect: "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "bravo"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "test_bench"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: "mediawiki"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 test location: ~ "[^/]\.php(/|$)"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 using configuration "/"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http cl:-1 max:104857600
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 rewrite phase: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post rewrite phase: 4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 access phase: 10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 post access phase: 11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 generic phase: 12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 try files handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http script var: "/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use dir: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 trying to use file: "/index.html" "/home/guir/web/test_bench_web/build/index.html"
+2025/09/19 14:43:11 [error] 3715677#3715677: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 31.97.138.182, server: guilherme-alan-ritter.net, request: "GET /media_wiki/index.php HTTP/1.0", host: "guilherme-alan-ritter.net"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: 500, "/index.html?" a:1, c:12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http special response: 500, "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http set discard body
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 HTTP/1.1 500 Internal Server Error
 Server: nginx/1.28.0
-Date: Fri, 19 Sep 2025 14:33:30 GMT
+Date: Fri, 19 Sep 2025 14:43:11 GMT
 Content-Type: text/html
 Content-Length: 177
 Connection: close
 
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 write new buf t:1 f:0 000055B08BA65BE8, pos 000055B08BA65BE8, size: 162 file: 0, size: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http write filter: l:0 f:0 s:162
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http output filter "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http copy filter: "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http postpone filter "/index.html?" 000055B08BA65DD0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 write old buf t:1 f:0 000055B08BA65BE8, pos 000055B08BA65BE8, size: 162 file: 0, size: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 write new buf t:0 f:0 0000000000000000, pos 000055B068437500, size: 124 file: 0, size: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 write new buf t:0 f:0 0000000000000000, pos 000055B0684386A0, size: 53 file: 0, size: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http write filter: l:1 f:0 s:339
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http write filter limit 2097152
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 posix_memalign: 000055B08B980F30:512 @16
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 malloc: 000055B08B998ED0:16384
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL buf copy: 162
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL buf copy: 124
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL buf copy: 53
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL to write: 339
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL_write: 339
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http write filter 0000000000000000
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http copy filter: 0 "/index.html?"
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: 0, "/index.html?" a:1, c:12
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:12 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:11
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:11 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:10
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:10 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:9
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:9 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:8 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:7
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:7 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:6
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:6 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:5
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:5 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:4
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:4 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:3 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:2
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:2 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http finalize request: -4, "/index.html?" a:1, c:1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http request count:1 blk:0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http close request
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 http log handler
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 free: 000055B08B9B9570, unused: 8
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 free: 000055B08BA653C0, unused: 1262
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 close http connection: 3
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 SSL_shutdown: 1
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 reusable connection: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 free: 000055B08B998ED0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 free: 000055B08B994200
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 free: 000055B08B9919B0, unused: 0
-2025/09/19 14:33:30 [debug] 3712518#3712518: *3 free: 000055B08B980F30, unused: 384
-2025/09/19 14:33:30 [debug] 3712518#3712518: timer delta: 44
-2025/09/19 14:33:30 [debug] 3712518#3712518: worker cycle
-2025/09/19 14:33:30 [debug] 3712518#3712518: epoll timer: -1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 write new buf t:1 f:0 0000560666B08BE8, pos 0000560666B08BE8, size: 162 file: 0, size: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http write filter: l:0 f:0 s:162
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http output filter "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http copy filter: "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http postpone filter "/index.html?" 0000560666B08DD0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 write old buf t:1 f:0 0000560666B08BE8, pos 0000560666B08BE8, size: 162 file: 0, size: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 write new buf t:0 f:0 0000000000000000, pos 000056064761F500, size: 124 file: 0, size: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 write new buf t:0 f:0 0000000000000000, pos 00005606476206A0, size: 53 file: 0, size: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http write filter: l:1 f:0 s:339
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http write filter limit 2097152
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 posix_memalign: 0000560666A23F30:512 @16
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 malloc: 0000560666A3BED0:16384
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL buf copy: 162
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL buf copy: 124
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL buf copy: 53
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL to write: 339
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL_write: 339
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http write filter 0000000000000000
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http copy filter: 0 "/index.html?"
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: 0, "/index.html?" a:1, c:12
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:12 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:11
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:11 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:10
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:10 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:9
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:9 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:8 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:7
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:7 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:6
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:6 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:5
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:5 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:4
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:4 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:3 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:2
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:2 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http finalize request: -4, "/index.html?" a:1, c:1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http request count:1 blk:0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http close request
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 http log handler
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 free: 0000560666A5C570, unused: 8
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 free: 0000560666B083C0, unused: 1262
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 close http connection: 3
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 SSL_shutdown: 1
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 reusable connection: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 free: 0000560666A3BED0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 free: 0000560666A37200
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 free: 0000560666A349B0, unused: 0
+2025/09/19 14:43:11 [debug] 3715677#3715677: *3 free: 0000560666A23F30, unused: 384
+2025/09/19 14:43:11 [debug] 3715677#3715677: timer delta: 44
+2025/09/19 14:43:11 [debug] 3715677#3715677: worker cycle
+2025/09/19 14:43:11 [debug] 3715677#3715677: epoll timer: -1
